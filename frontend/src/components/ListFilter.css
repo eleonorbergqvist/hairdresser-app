@@ -1,0 +1,39 @@
+.ListFilter {
+  position: relative;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;;
+  padding: 15px 10px 15px 10px;
+  border-bottom: 0.5px solid #B69F58;
+}
+
+.ListFilter__Select {
+  border: none ;
+  cursor: pointer ;
+  height: 100%;
+  opacity: 0 ;
+  position: absolute ;
+  width: 100% ;
+  top: 0;
+  left: 0;
+}
+
+.ListFilter__Header {
+  display: inline;
+  font-size: 15px;
+  color: #202020;
+  font-weight: lighter;
+}
+
+.ListFilterArrow {
+  display: inline;
+}
+
+.ListFilter__Hr {
+  display: block;
+  height: 0.5px;
+  border: 0;
+  border-top: 0.5px solid #B69F58;
+  margin: 0 0 0 0;
+  padding: 0;
+}

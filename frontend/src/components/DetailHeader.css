@@ -1,0 +1,40 @@
+.DetailHeader {
+  background-image: url('../img/header.jpg');
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 267px;
+}
+
+.DetailHeader__Buttons {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px 0 10px;
+}
+
+.DetailHeader__Title {
+  padding-top: 150px;
+  font-size: 30px;
+  color: #D8D8D8;
+  text-align: left;
+  margin: 0 10px 0 10px;
+}
+
+.DetailHeader__Ratings {
+  display: flex;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin: 5px 10px 0 10px;
+}
+
+.DetailHeader__RatingsImage {
+  display: inline;
+}
+
+.DetailHeader__RatingsCount {
+  display: inline;
+  margin: 0 0 0 10px;
+  color: #D8D8D8;
+  font-size: 13px;
+}
+
