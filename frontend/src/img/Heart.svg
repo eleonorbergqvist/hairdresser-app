@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="34px" height="31px" viewBox="0 0 34 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>DetailHeaderArrow2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.6407887,3 C12.0756373,3 13.5130017,3.57556073 14.6241498,4.73842263 L16.6158303,6.8262629 C16.8279967,7.05044925 17.1818869,7.06023295 17.4060733,6.84806656 C17.4136207,6.8410782 17.4211681,6.83353078 17.4281565,6.8262629 L19.4111714,4.75575374 C21.6334676,2.43002995 25.1469318,2.43002995 27.369228,4.75575374 C29.5915242,7.08175707 29.5915242,10.8336639 27.369228,13.1593877 C23.9178204,16.7712479 20.4689285,20.3881398 17.0175209,24 L6.66609324,13.1507221 C4.44547427,10.822203 4.44379706,7.06414642 6.66609324,4.73842263 C7.77724132,3.57556073 9.20594016,3 10.6407887,3 Z" id="path-1"></path>
+        <filter x="-31.2%" y="-26.2%" width="162.4%" height="171.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Page-1-Copy">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use stroke="#FFFFFF" stroke-width="1" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
