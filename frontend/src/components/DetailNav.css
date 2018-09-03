@@ -1,0 +1,21 @@
+.DetailNav {
+  width: inherit;
+  height: 50px;
+  display: flex;
+  border-bottom: 0.5px solid #EEEEEE;
+}
+
+.DetailNav__Button {
+  display: block;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  line-height: 50px;
+  font-size: 17px;
+  color: #202020;
+  text-decoration: none;
+}
+
+.DetailNav__Button--Active {
+  border-bottom: 2px solid #B69F58;
+}

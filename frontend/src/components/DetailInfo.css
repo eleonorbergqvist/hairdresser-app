@@ -1,0 +1,27 @@
+.DetailInfo {
+}
+
+.DetailInfo__Space {
+  height: 15px;
+  background-color: #F9F9F9;
+}
+
+.DetailInfo__Paragraph {
+  border-bottom: 0.5px solid #EEEEEE;
+  display: flex;
+  margin: 0 10px 0 10px;
+}
+
+.DetailInfo__Icon {
+  width: 15px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.DetailInfo__Text {
+  font-size: 15px;
+  color: #2B2B2B;
+  display: inline;
+  margin-left: 0;
+  text-align: left;
+}

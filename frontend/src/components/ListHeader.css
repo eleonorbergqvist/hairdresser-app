@@ -1,0 +1,7 @@
+.ListHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+
+    border-bottom: 0.5px solid #B69F58;
+}

@@ -1,0 +1,11 @@
+@font-face {
+  font-family: Font Bureau;
+  src: url('./img/Font Bureau - MillerBanner Light.otf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Font Bureau;
+  background-color: lightgrey;
+}
